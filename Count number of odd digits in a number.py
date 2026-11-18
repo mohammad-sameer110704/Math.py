@@ -9,7 +9,7 @@ def countOddDigit(n):
     while temp > 0 :
         x = temp % 10
         if x % 2 != 0:
-            c  += 10
+            c  += 1
         temp = temp // 10
     return c
 n = int(input("Enter a number : "))

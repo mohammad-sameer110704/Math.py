@@ -14,7 +14,7 @@ def reverseNumber(n):
          while n > 0 :
             x = n % 10
             rev = rev * 10 + x
-            n = n // 100
+            n = n // 10
          return -rev
 
 n = int(input("Enter a number : "))
