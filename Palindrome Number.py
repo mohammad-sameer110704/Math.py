@@ -16,7 +16,7 @@ def isPalindrome(n):
             while n > 0:
                 x = n % 10
                 rev = rev * 10 + x
-                n = n // 10
+                n = n // 100
             return temp == rev
 n = int(input("Enter a number : "))
 print(isPalindrome(n))
